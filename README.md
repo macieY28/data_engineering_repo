@@ -7,11 +7,19 @@ Create SQL Server database for E-commerce store selling football clothing, footw
 02_insert_query.sql - inserting data to tables
 03_programmability.sql - create stored procedures, triggers and functions
 04_test_query.sql - sample queries testing solution functionality
+05_credentials.sql - creating credential to access the data in Power BI model
 
 Power BI:
 Sales report in Direct Query model based on SQL database. Requires configuration to access the data. Contains 3 bookmarks:
 Summary - sales overwiew with metrics, Details - table with sales view details, Promo - discounted sale analysis
 7 tables from DQ model, calcualated date table and measures table with DAX measures used in the report.
+
+Configuration od DQ model report:
+you can create SQL database n your local SQL Server instance and choose Windows authentication mode
+you can create credentials from SQL query and use it in Database authentication mode to access Direct Query model
+make sure that Server in Data Sources setting is the name of your local SQL Server instance and Database is EcommerceFootballStore
+
+Sales report in Import model with materialized tables and view from SQL databas
 
 PySpark:
 description under construction
