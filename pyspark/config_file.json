@@ -1,7 +1,7 @@
 {"sources": [
 		{
 		 "table_name": "DimCustomer",
-		 "path": "C:/Users/Maciek/Desktop/pyspark/dimCustomer.csv",
+		 "path": "C:/Your/File/Path/dimCustomer.csv",
 		 "schema": {
 			"fields": [
 				{"name": "CustomerID", "type": "integer"},
@@ -18,7 +18,7 @@
 		},
 		{
 		 "table_name": "SalesOnline",
-		 "path": "C:/Users/Maciek/Desktop/pyspark/SalesOnline.csv",
+		 "path": "C:/Your/File/Path/SalesOnline.csv",
 		 "schema": {
 			"fields": [
 				{"name": "OrderID", "type": "integer"},
@@ -32,7 +32,7 @@
 		},
 		{
 		 "table_name": "vSales",
-		 "path": "C:/Users/Maciek/Desktop/pyspark/vSales.csv",
+		 "path": "C:/Your/File/Path/vSales.csv",
 		 "schema": {
 			"fields": [
 				{"name": "OrderID", "type": "integer"},
