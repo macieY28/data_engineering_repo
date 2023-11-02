@@ -1,5 +1,5 @@
 # data_engineering_repo
-This repository containts files showing my data engineering skills in 3 technologies: SQL, PowerBI(DAX) and Python(PySpark).  
+This repository containts files showing some of my data engineering skills in 3 technologies: SQL, PowerBI(DAX) and Python(PySpark).  
   
 **T-SQL**:  
 Create SQL Server database for E-commerce store selling football clothing, footwear and accesories. Containts 4 files:
