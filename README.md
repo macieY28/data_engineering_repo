@@ -29,6 +29,6 @@ segmentation proccess. Ensure that you have pyspark and java installed on your l
 where you will save csv files, configuration json and where you want to save the result parquet file.
 
 *About author:
-junior data engineer with almost 2 years experience in Big Data projects
+data engineer with 3 years experience in Big Data projects
 you can contact with me by mail: maciekcz95@wp.pl*
 
