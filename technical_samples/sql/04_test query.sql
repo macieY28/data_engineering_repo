@@ -17,7 +17,7 @@ SELECT * FROM DimSubcategory WHERE SubcategoryID IN (5,6)
 
 INSERT INTO DimCustomer (FirstName, LastName, BirthDate, Gender, Kids, MartialStatus, DeliveryAddress, CorrespondenceAddress)
 VALUES
-	('Maciej', 'Gruszczyñski', '1995-11-10', 'M', 0, 'single', 'Poziomkowa 1, 61-215 Poznañ', 'Poziomkowa 1, 61-215 Poznañ')
+	('Maciej', 'GruszczyÃ±ski', '1995-11-10', 'M', 0, 'single', 'Poziomkowa 1, 61-215 PoznaÃ±', 'Poziomkowa 1, 61-215 PoznaÃ±')
 
 DECLARE @AddedCustomer int = SCOPE_IDENTITY()
 EXEC AddSales
@@ -54,7 +54,7 @@ UPDATE DimProduct SET UnitPrice = 42.99 WHERE ProductID = 14
 
 SELECT * FROM DimProductHistory
 
-UPDATE DimCustomer SET CorrespondenceAddress = 'ul. Aleja Grunwaldzka 180/15, 80-200 Gdañœk' WHERE CustomerID = 158
+UPDATE DimCustomer SET CorrespondenceAddress = 'ul. Aleja Grunwaldzka 180/15, 80-200 GdaÃ±Å“k' WHERE CustomerID = 158
 
 SELECT * FROM DimCustomerHistory
 
