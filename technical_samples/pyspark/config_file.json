@@ -1,0 +1,52 @@
+{"sources": [
+		{
+		 "table_name": "DimCustomer",
+		 "path": "C:/Your/File/Path/dimCustomer.csv",
+		 "schema": {
+			"fields": [
+				{"name": "CustomerID", "type": "integer"},
+				{"name": "FirstName", "type": "string"},
+				{"name": "LastName", "type": "string"},
+				{"name": "BirthDate", "type": "date"},
+				{"name": "Gender", "type": "string"},
+				{"name": "Kids", "type": "integer"},
+				{"name": "MartialStatus", "type": "string"},
+				{"name": "DeliveryAddress", "type": "string"},
+				{"name": "CorrespondenceAddress", "type": "string"}
+			]
+			}
+		},
+		{
+		 "table_name": "SalesOnline",
+		 "path": "C:/Your/File/Path/SalesOnline.csv",
+		 "schema": {
+			"fields": [
+				{"name": "OrderID", "type": "integer"},
+				{"name": "OrderDate", "type": "timestamp"},
+				{"name": "DeliveryDate", "type": "date"},
+				{"name": "CustomerID", "type": "integer"},
+				{"name": "DeliveryID", "type": "string"},
+				{"name": "Invoice", "type": "integer"}
+			]
+		 }
+		},
+		{
+		 "table_name": "vSales",
+		 "path": "C:/Your/File/Path/vSales.csv",
+		 "schema": {
+			"fields": [
+				{"name": "OrderID", "type": "integer"},
+				{"name": "OrderDate", "type": "timestamp"},
+				{"name": "DeliveryDate", "type": "date"},
+				{"name": "DeliveryAddress", "type": "string"},
+				{"name": "Customer", "type": "string"},
+				{"name": "SalesAmount", "type": "float"},
+				{"name": "DeliveryPrice", "type": "float"},
+				{"name": "TotalAmount", "type": "float"},
+				{"name": "PositionCount", "type": "integer"}
+			]
+		 }
+		}
+	]
+}
+	    
