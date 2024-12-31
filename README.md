@@ -128,6 +128,7 @@ These files are loaded during the Bronze Layer's API setup to parameterize data 
 
 This project is designed to provide a robust framework for data engineering workflows, emphasizing modularity and scalability. It could be also implemented on other spark-based data platform like Microsoft Fabrics or Azure Synapse Analytics. Contributions and suggestions are welcome!
 
+# technical_samples
 
 **T-SQL**:  
 Create SQL Server database for E-commerce store selling football clothing, footwear and accesories. Containts 4 files:
